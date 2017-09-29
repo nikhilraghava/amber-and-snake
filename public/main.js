@@ -33,7 +33,7 @@ function draw() {
         stroke(255);
         textFont(myFont);
         textSize(24);
-        text('Game over! Hit refresh to start again...', width - 600, 54);
+        text('Game over! Move to continue...', width - 500, 54);
     }
 
     snake.move();

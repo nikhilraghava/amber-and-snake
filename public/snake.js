@@ -44,6 +44,8 @@ function Snake() {
         var rightHit = collideLineRect(width, 0, width, height, this.x, this.y, scl, scl);
         
         if (topHit || bottomHit || leftHit || rightHit) {
+            this.total = 0;
+            this.tail = [];
             return true;
         }
     }
